@@ -1,0 +1,16 @@
+{
+ "entries": [
+  {
+   "date": "2026-10-31 20:47",
+   "what": "回收站",
+   "freed": 0.57,
+   "note": "C:\\$Recycle.Bin 清空（11 个文件 → 剩 3 个 0 字节占用中）；不需要管理员"
+  },
+  {
+   "date": "2026-10-31 20:57",
+   "what": "Windows 更新缓存",
+   "freed": 5.06,
+   "note": "C:/Windows/SoftwareDistribution/Download：9.81 GB → 4.75 GB；提权进程中途被终止，剩 4.75 GB 没动（要清得用磁盘清理或手动管理员命令）"
+  }
+ ]
+}

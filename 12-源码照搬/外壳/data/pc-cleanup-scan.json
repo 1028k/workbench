@@ -1,0 +1,301 @@
+{
+ "scannedAt": "2026-10-31T13:03:22.480Z",
+ "tookSec": 233.5,
+ "minGb": 0.5,
+ "partial": false,
+ "items": [
+  {
+   "path": "C:\\Users\\17207",
+   "gb": 49.19
+  },
+  {
+   "path": "D:\\WeGameApps\\downloading",
+   "gb": 48.74
+  },
+  {
+   "path": "C:\\Windows",
+   "gb": 29.71
+  },
+  {
+   "path": "D:\\mhxy",
+   "gb": 28.1
+  },
+  {
+   "path": "C:\\Program Files (x86)",
+   "gb": 17.1
+  },
+  {
+   "path": "C:\\Program Files",
+   "gb": 7.49
+  },
+  {
+   "path": "D:\\$WINDOWS.~TMP",
+   "gb": 7.18
+  },
+  {
+   "path": "C:\\ProgramData",
+   "gb": 5.79
+  },
+  {
+   "path": "D:\\Program Files\\Tencent\\Androws",
+   "gb": 5.53
+  },
+  {
+   "path": "D:\\Drivers",
+   "gb": 4.41
+  },
+  {
+   "path": "D:\\Doubao",
+   "gb": 2.82
+  },
+  {
+   "path": "D:\\Windows Kits\\10",
+   "gb": 1.88
+  },
+  {
+   "path": "D:\\workbench\\12-源码照搬",
+   "gb": 1.87
+  },
+  {
+   "path": "D:\\电脑管家迁移文件",
+   "gb": 1.85
+  },
+  {
+   "path": "D:\\DeliveryOptimization\\Cache",
+   "gb": 1.74
+  },
+  {
+   "path": "D:\\Torchlight Infinite\\Game\\UE_game\\Torchlight\\Saved\\PersistentDownloadDir\\PreMountPak",
+   "gb": 1.58
+  },
+  {
+   "path": "D:\\PlayerDownload\\7裸K微波段内容-0基础要先学",
+   "gb": 1.44
+  },
+  {
+   "path": "D:\\steam",
+   "gb": 1.42
+  },
+  {
+   "path": "D:\\webcast_mate\\12.8.1.454484231",
+   "gb": 1.33
+  },
+  {
+   "path": "D:\\AOMEI Partition Assistant",
+   "gb": 1.24
+  },
+  {
+   "path": "D:\\BaiduNetdisk",
+   "gb": 1.11
+  },
+  {
+   "path": "D:\\douyin\\8.7.0",
+   "gb": 1.09
+  },
+  {
+   "path": "C:\\Aomei",
+   "gb": 1.03
+  },
+  {
+   "path": "D:\\Weixin\\4.1.13.65",
+   "gb": 0.86
+  },
+  {
+   "path": "D:\\deepseak",
+   "gb": 0.85
+  },
+  {
+   "path": "D:\\腾讯会议\\WeMeet\\3.47.2.405",
+   "gb": 0.82
+  },
+  {
+   "path": "D:\\Apps\\dsh-pet-standalone-webm-chat\\_internal",
+   "gb": 0.79
+  },
+  {
+   "path": "D:\\ToolDownloads",
+   "gb": 0.73
+  },
+  {
+   "path": "D:\\LeiGod_Acc\\resources",
+   "gb": 0.7
+  },
+  {
+   "path": "C:\\$WINDOWS.~BT\\Sources",
+   "gb": 0.62
+  },
+  {
+   "path": "D:\\.pnpm-store\\v11\\files",
+   "gb": 0.61
+  }
+ ],
+ "byDrive": {
+  "C:": [
+   {
+    "path": "C:\\Users\\17207",
+    "gb": 49.19
+   },
+   {
+    "path": "C:\\Windows",
+    "gb": 29.71
+   },
+   {
+    "path": "C:\\Program Files (x86)",
+    "gb": 17.1
+   },
+   {
+    "path": "C:\\Program Files",
+    "gb": 7.49
+   },
+   {
+    "path": "C:\\ProgramData",
+    "gb": 5.79
+   },
+   {
+    "path": "C:\\Aomei",
+    "gb": 1.03
+   },
+   {
+    "path": "C:\\$WINDOWS.~BT\\Sources",
+    "gb": 0.62
+   }
+  ],
+  "D:": [
+   {
+    "path": "D:\\WeGameApps\\downloading",
+    "gb": 48.74
+   },
+   {
+    "path": "D:\\mhxy",
+    "gb": 28.1
+   },
+   {
+    "path": "D:\\$WINDOWS.~TMP",
+    "gb": 7.18
+   },
+   {
+    "path": "D:\\Program Files\\Tencent\\Androws",
+    "gb": 5.53
+   },
+   {
+    "path": "D:\\Drivers",
+    "gb": 4.41
+   },
+   {
+    "path": "D:\\Doubao",
+    "gb": 2.82
+   },
+   {
+    "path": "D:\\Windows Kits\\10",
+    "gb": 1.88
+   },
+   {
+    "path": "D:\\workbench\\12-源码照搬",
+    "gb": 1.87
+   },
+   {
+    "path": "D:\\电脑管家迁移文件",
+    "gb": 1.85
+   },
+   {
+    "path": "D:\\DeliveryOptimization\\Cache",
+    "gb": 1.74
+   },
+   {
+    "path": "D:\\Torchlight Infinite\\Game\\UE_game\\Torchlight\\Saved\\PersistentDownloadDir\\PreMountPak",
+    "gb": 1.58
+   },
+   {
+    "path": "D:\\PlayerDownload\\7裸K微波段内容-0基础要先学",
+    "gb": 1.44
+   },
+   {
+    "path": "D:\\steam",
+    "gb": 1.42
+   },
+   {
+    "path": "D:\\webcast_mate\\12.8.1.454484231",
+    "gb": 1.33
+   },
+   {
+    "path": "D:\\AOMEI Partition Assistant",
+    "gb": 1.24
+   },
+   {
+    "path": "D:\\BaiduNetdisk",
+    "gb": 1.11
+   },
+   {
+    "path": "D:\\douyin\\8.7.0",
+    "gb": 1.09
+   },
+   {
+    "path": "D:\\Apps\\dsh-pet-standalone-webm-chat\\_internal",
+    "gb": 0.79
+   },
+   {
+    "path": "D:\\LeiGod_Acc\\resources",
+    "gb": 0.7
+   },
+   {
+    "path": "D:\\Weixin\\4.1.13.65",
+    "gb": 0.86
+   },
+   {
+    "path": "D:\\deepseak",
+    "gb": 0.85
+   },
+   {
+    "path": "D:\\腾讯会议\\WeMeet\\3.47.2.405",
+    "gb": 0.82
+   },
+   {
+    "path": "D:\\ToolDownloads",
+    "gb": 0.73
+   },
+   {
+    "path": "D:\\.pnpm-store\\v11\\files",
+    "gb": 0.61
+   }
+  ]
+ },
+ "junk": [
+  {
+   "k": "Windows 更新缓存",
+   "path": "C:\\Windows\\SoftwareDistribution\\Download",
+   "gb": 4.71,
+   "note": "更新装完后可删；删前先停 wuauserv 与 bits"
+  },
+  {
+   "k": "Edge 缓存",
+   "path": "C:\\Users\\17207\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Cache",
+   "gb": 0.82,
+   "note": "只含各 Profile 的 Cache / Code Cache，不含书签、密码、历史"
+  },
+  {
+   "k": "用户临时文件",
+   "path": "C:\\Users\\17207\\AppData\\Local\\Temp",
+   "gb": 0.22,
+   "note": "正被程序占用的文件会自动跳过；重启后这里会自己长回来"
+  },
+  {
+   "k": "npm 缓存",
+   "path": "C:\\Users\\17207\\AppData\\Local\\npm-cache",
+   "gb": 0.19,
+   "note": "npm 的包缓存，删了下次装包会重新下载"
+  },
+  {
+   "k": "缩略图与图标缓存",
+   "path": "C:\\Users\\17207\\AppData\\Local\\Microsoft\\Windows\\Explorer",
+   "gb": 0.07,
+   "note": "缩略图数据库，删后自己重建（Explorer 正开着可能删不掉）"
+  },
+  {
+   "k": "回收站",
+   "path": "C:\\$Recycle.Bin",
+   "gb": 0,
+   "note": "清空回收站即可；删前确认里面没有还要找回的文件"
+  }
+ ],
+ "junkTotalGb": 6.01
+}

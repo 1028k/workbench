@@ -1,0 +1,10 @@
+{
+  "name": "dsh-engine",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "淋雨家工作台的本地 DSH 引擎（dsh web）",
+  "dependencies": {
+    "@deepseek-ai/dsh": "0.2.1-rc.5"
+  }
+}

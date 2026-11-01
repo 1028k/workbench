@@ -1,0 +1,25 @@
+{
+  "id": "xiaoe-tech",
+  "name": "小鹅通学习平台",
+  "description": "小鹅通学习",
+ "layout": "grid",
+ "theme": "dark",
+ "cols": 5,
+ "panels": [
+  {
+   "id": "xiaoe-tech-web",
+   "title": "小鹅通学习平台（网页）",
+   "type": "embed",
+   "url": "https://study.xiaoe-tech.com/t_l/learnIndex#/muti_index",
+   "col": 1,
+   "row": 1,
+   "w": 5,
+   "h": 6,
+   "userAgent": "ie",
+   "embedToggle": false,
+   "allowPopups": true,
+   "failHint": "平台打不开：① 检查网络 ② 点右上角「在浏览器中打开」"
+  }
+ ],
+ "first": false
+}

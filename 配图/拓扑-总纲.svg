@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/>
+    </pattern>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker>
+    <marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+    <marker id="arP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#059669"/></marker>
+    <marker id="arS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0284c7"/></marker>
+    <marker id="arA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker>
+    <style>
+      text { font-family: 'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif; }
+      .t { font-weight: 700; fill: #0f172a; }
+      .b { fill: #475569; }
+      .m { fill: #94a3b8; }
+      .cap { font-weight: 600; }
+    </style>
+  </defs>
+<rect width="1200" height="900" fill="#f8fafc"/>
+<rect width="1200" height="900" fill="url(#grid)"/>
+<text x="48" y="64" font-size="36" class="t">DSH 工作台 · 拓扑总纲</text>
+<text x="48" y="96" font-size="18" class="b">节点 = 东西放在哪一层；连线 = 谁读谁、谁写谁、谁兜底</text>
+<rect x="400" y="120" width="400" height="72" rx="14" fill="#1e293b" filter="url(#sh)"/>
+<text x="422" y="152" font-size="23" fill="#ffffff" font-weight="700">宿主</text>
+<text x="422" y="178" font-size="18" fill="#cbd5e1">唯一决策人 · 只认亲口说 / 明确同意</text>
+<rect x="56" y="120" width="296" height="72" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#sh)"/>
+<rect x="56" y="120" width="6" height="72" rx="3" fill="#0284c7"/>
+<text x="78" y="154" font-size="22" class="t">命令台</text>
+<text x="78" y="186" font-size="18" class="b">只读 + 路由：分诊、派单、对账</text>
+<path d="M398 156 H354" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<path d="M600 192 V230" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arB)"/>
+<text x="614" y="216" font-size="17" class="cap" fill="#2563eb">C1</text>
+<rect x="400" y="232" width="400" height="108" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#sh)"/>
+<rect x="400" y="232" width="6" height="108" rx="3" fill="#2563eb"/>
+<text x="422" y="266" font-size="22" class="t">L0 宪法 · 最高规则</text>
+<text x="422" y="298" font-size="18" class="b">版本化 · 只有宿主能改</text>
+<text x="422" y="327" font-size="18" class="b">改动 = 版本 +1，旧版留档</text>
+<path d="M600 340 V378" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arB)"/>
+<text x="614" y="364" font-size="17" class="cap" fill="#2563eb">C2</text>
+<rect x="400" y="380" width="400" height="108" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#sh)"/>
+<rect x="400" y="380" width="6" height="108" rx="3" fill="#059669"/>
+<text x="422" y="414" font-size="22" class="t">L1 共享层 · 大家共用</text>
+<text x="422" y="446" font-size="18" class="b">宿主画像 · 区域表 · 项目清单</text>
+<text x="422" y="475" font-size="18" class="b">通知与待办 · 索引与台账</text>
+<path d="M600 488 V526" stroke="#059669" stroke-width="2.5" marker-end="url(#arG)"/>
+<text x="614" y="512" font-size="17" class="cap" fill="#059669">C3</text>
+<rect x="400" y="528" width="400" height="142" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#sh)"/>
+<rect x="400" y="528" width="6" height="142" rx="3" fill="#7c3aed"/>
+<text x="422" y="562" font-size="22" class="t">L2 场景私有 · 谁写谁的</text>
+<text x="422" y="592" font-size="18" class="b">定位卡 · 私有记忆 · 身份卡 · 技能</text>
+<rect x="418" y="608" width="364" height="46" rx="10" fill="#f5f3ff" stroke="#ddd6fe"/>
+<text x="436" y="636" font-size="17" class="cap" fill="#5b21b6">项目记忆 · 一项目一份，比会话活得久</text>
+<rect x="848" y="528" width="296" height="142" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#sh)"/>
+<rect x="848" y="528" width="6" height="142" rx="3" fill="#64748b"/>
+<text x="870" y="562" font-size="22" class="t">L5 归档 · 只进不改</text>
+<text x="870" y="594" font-size="18" class="b">备份 · 冷备 · 场景归档</text>
+<text x="870" y="623" font-size="18" class="b">可恢复，不占入口</text>
+<path d="M802 599.0 H846" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ar)"/>
+<rect x="56" y="528" width="296" height="142" rx="14" fill="#ffffff" stroke="#e2e8f0" filter="url(#sh)"/>
+<rect x="56" y="528" width="6" height="142" rx="3" fill="#64748b"/>
+<text x="78" y="562" font-size="22" class="t">L4 运行时</text>
+<text x="78" y="594" font-size="18" class="b">引擎 · 外壳 · 工具 · MCP</text>
+<text x="78" y="623" font-size="18" class="b">插件 · 计划任务</text>
+<path d="M354 599.0 H398" stroke="#64748b" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="376" y="585.0" font-size="17" class="cap" fill="#64748b" text-anchor="middle">C8</text>
+<rect x="848" y="700" width="296" height="72" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-dasharray="6 5"/>
+<text x="870" y="732" font-size="20" class="t">🔒 L3 个人层 · 隔离</text>
+<text x="870" y="758" font-size="16" class="m">只有本人与授权者 · 刻意不画线</text>
+<rect x="56" y="700" width="744" height="80" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-dasharray="6 5"/>
+<text x="78" y="734" font-size="21" class="t">审计 · 只读巡检（C9）</text>
+<text x="78" y="762" font-size="17" class="b">结构 / 记忆 / 索引 / 共享 / 技能 / 宪法 自检 · 只出报告，不改数据</text>
+<path d="M600 670 V698" stroke="#94a3b8" stroke-width="2" stroke-dasharray="3 5" marker-end="url(#ar)"/>
+<text x="614" y="690" font-size="17" class="cap" fill="#64748b">C9 只读</text>
+<text x="56" y="826" font-size="17" class="cap" fill="#2563eb">主轴 C1 → C2 → C3</text>
+<text x="248" y="826" font-size="17" class="cap" fill="#64748b">承载 C8</text>
+<text x="352" y="826" font-size="17" class="cap" fill="#64748b">巡检 C9</text>
+<text x="1144" y="826" font-size="16" class="m" text-anchor="end">判据：每样东西只属于一层，只在一个地方是真源</text>
+<text x="56" y="862" font-size="16" class="m">个人层（L3）刻意不画线 = 隔离本身是规矩：不进共享层、不进公开仓库。</text>
+</svg>
